@@ -23,7 +23,7 @@ jobs:
         upstream_repository: getstencil/GoogleWebFonts-FontFamilyPreviewImages
         upstream_branch: master
         target_branch: master
-        git_pull_args: --ff-only --allow-unrelated-histories
+        git_pull_args: --allow-unrelated-histories
 
     # Step 3: Display a message if 'sync' step had new commits
     - name: Check for new commits
